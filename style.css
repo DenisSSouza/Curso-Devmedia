@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+
+.topo{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 28px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+   
+}
+.topo a{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 35px;
+    
+    
+}
+
+.secao-banner{
+    height: calc(100vh-80px);
+    height: 100vh;
+    background-image: url(./img/capa.jpg);
+    background-size:cover;
+
+    box-shadow: 0px -1px 10px 1px #ffffff;  
+}
+
+.secao-sinopse{
+    width: 100%;
+    max-width: 1024px;
+    padding: 50px 20px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.secao-sinopse h1{
+    font-size: 36px;
+}
+.secao-sinopse h2{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.secao-sinopse p{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.secao-canais{
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(66, 30, 99);
+    color: #ffffff;
+    
+}
+.secao-canais h2, .conteiners h3, .secao-temporadas h2{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.secao-canais img{
+    width: 80%;
+    max-width: 1024px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 3px #ffffff;
+}
+.secao-canais p{
+    font-size: 20px;
+    
+}
+
+.secao-temporadas{
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.conteiners{
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 160px;
+    max-width: 1024px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px #cac4c4;
+    text-align: center;
+    margin: 40px auto;
+   
+}
+.conteiners h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.conteiners p{
+    font-size: 16px;
+}
+
+.secao-imagens{
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #421e63;
+    color: #ffffff;
+    display: inline-block;
+    white-space: nowrap;
+    
+    }
+
+.subconteiner-imagens{
+    width: 100%;
+    max-width: 1024px;
+    overflow: auto;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.subconteiner-imagens img{
+    box-shadow: 0px 0px 10px 3px #ffffff;
+    width: 320px;
+    margin:25px 20px;
+    min-height: 220px; 
+}
+
+
+.secao-imagens h2{
+    font-size: 28px;
+    
+}
+.secao-imagens span, .secao-imagens a{
+    font-size: 20px;
+    
+}
+.secao-imagens a{
+    color: #1700c5;
+    text-decoration: none;
+}
+.rodape{
+   width: 100%;
+   padding: 40px 0px;
+   background-color: rgb(66, 30, 99);
+   text-align: center;
+   font-size: 16px;
+   position: relative;
+   color:#ffffff;
+   box-shadow: 0px 10px 20px 5px#ffffff;
+}
+
+.subconteiner-imagens::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.subconteiner-imagens::-webkit-scrollbar-track {
+  border-radius: 13px;
+  background-color: #EAEBE3;
+  border: 1px solid #FFFFFF;
+}
+
+.subconteiner-imagens::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+.subconteiner-imagens::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+.subconteiner-imagens::-webkit-scrollbar-thumb {
+  border-radius: 19px;
+  background-color: #3E28FF;
+}
+
+.subconteiner-imagens::-webkit-scrollbar-thumb:hover {
+  background-color: #7A75A3;
+}
+
+.subconteiner-imagens::-webkit-scrollbar-thumb:active {
+  background-color: #9224A3;
+}
+
+
+
+
+
